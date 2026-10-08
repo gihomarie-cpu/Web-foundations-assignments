@@ -1,0 +1,61 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #222222;
+    --input-bg: #f5f5f5;
+    --border-color: #cccccc;
+    --button-bg: #333333;
+    --button-text: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+body.dark {
+    --bg-color: #222222;
+    --text-color: #ffffff;
+    --input-bg: #333333;
+    --border-color: #555555;
+    --button-bg: #ffffff;
+    --button-text: #222222;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+button {
+    padding: 10px 15px;
+    margin-right: 8px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    cursor: pointer;
+}
+
+/* Character counter states */
+
+.warning {
+    color: orange;
+}
+
+.over {
+    color: red;
+    font-weight: bold;
+}
