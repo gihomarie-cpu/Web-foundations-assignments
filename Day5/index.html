@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 - Users API</title>
+    <script src="users.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>QuickNotes - Day 5</h1>
+        <p>Learning how to fetch and display API data</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Users Directory</h2>
+
+            <button type="button" id="load-users">
+                Load Users
+            </button>
+
+            <div>
+                <label for="filter-input">Filter users by name:</label>
+                <input
+                    type="text"
+                    id="filter-input"
+                    placeholder="Enter a name..."
+                >
+            </div>
+
+            <p id="status" role="status" aria-live="polite">
+                Click "Load Users" to get users from the API.
+            </p>
+
+            <ul id="users-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>QuickNotes Learning Project - Day 5</p>
+    </footer>
+
+</body>
+</html>
