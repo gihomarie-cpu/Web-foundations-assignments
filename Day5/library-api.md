@@ -35,7 +35,7 @@ This REST API allows clients to list books, retrieve individual books, create ne
 ```json
 {
   "title": "Introduction to JavaScript",
-  "author": "Jane Smith",
+  "author": "Gihozo Marie",
   "publishedYear": 2025,
   "category": "Programming"
 }

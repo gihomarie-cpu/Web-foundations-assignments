@@ -101,3 +101,4 @@ filterInput.addEventListener("input", function () {
 
     renderUsers(getFilteredUsers());
 });
+// https://github.com/gihomarie-cpu/Web-foundations-assignments/tree/main
