@@ -1,0 +1,7 @@
+# Day 8 Reflection
+
+The most difficult concept in this course was designing the logic behind a system rather than only writing code. I found it challenging to connect requirements to database relationships, API requests, and the behaviour users experience. I improved by breaking each problem into smaller steps, using realistic examples, checking query results, and tracing what happens when two requests arrive at nearly the same time. Working through APIs and database design helped me understand why validation, transactions, and constraints matter beyond simply making a page work.
+
+For my capstone, I would improve the security and testing of the system. I would ensure that each role can access only the actions and data it is permitted to use, validate inputs on the server, and test cases where data is missing, duplicated, or invalid. I would also improve the user experience by making status messages clearer and testing important workflows from beginning to end. I would revise this part to name the exact feedback I received and explain how the changes respond to it, rather than claiming feedback that I cannot accurately recall.
+
+Next, I want to learn more about backend development with PHP or Node.js, relational database transactions, authentication, and API testing. I also want to practise Git consistently and learn to deploy a small application. My goal is to build projects that solve real problems, understand why the design works, and explain my technical decisions instead of relying only on code that happens to run.
