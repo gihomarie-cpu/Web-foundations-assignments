@@ -331,5 +331,5 @@ A read replica increases read capacity and protects the primary database, but re
 
 Trade-off 4: Multiple image sizes versus storage cost
 
-Generating several image sizes can improve mobile performance and reduce bandwidth, but it increases processing time and storage costs beyond the estimated 748.25 TB per year. Generating only one thumbnail is cheaper, but it may be less efficient for different screen sizes.
+Generating several image sizes can improve mobile performance and reduce bandwidth, but it increases processing time and storage costs beyond  the estimated 748.25 TB per year. Generating only one thumbnail is cheaper, but it may be less efficient for different screen sizes.
 
